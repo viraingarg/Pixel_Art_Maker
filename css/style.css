@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+}
+
+.header{
+	background-color:yellow;
+}
+
+h1 {
+    font-size: 70.1px;
+    margin: 0.21em;
+}
+
+.body{
+	background-color:#56f0ff;
+	padding: 10px;
+}
+
+h2 {
+    margin: 1.1em 0 0.251em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table, tr, td {
+    border: 1.1px solid #ad8f8f;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 40.1px;
+}
+
+td {
+    width: 40.1px;
+}
+
+input[type=number] {
+    width: 6.01em;
+    height:2.01em;
+    border-radius: 5.1px;
+    outline:none;
+    border: 2.1px solid #dadada;
+    margin-left:11px;
+    margin-right:11px;
+}
+
+input[type=number]:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+input[type=submit] {
+    width: 8.01em;
+    height: 2.01em;
+    border-radius:5.1px;
+    background-color: #5c6ac4;
+    margin: 3.1px;
+    font-size: 16.1px;
+    font-weight: bold;
+    color: white;
+    outline:none;
+    margin-left:11px;
+}
+
+input[type=color] {
+    width: 8.01em;
+    height: 2.01em;
+    border-radius: 5.1px;
+    padding:2.1px;
+    outline:none;
+}
+
+#gridsize{
+    margin-top: 1.5%;
+}
+
+#cellcolor,
+#canvas_table {
+    margin-top: 1.5%;
+}
+
+span {
+    font-size: 20.1px;
+}

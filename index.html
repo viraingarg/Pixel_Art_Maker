@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pixel Art Maker</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="header">
+			<h1>Pixel Art Maker</h1>
+		</div>
+		<div class="body">
+			<h2>Create Grid Canvas</h2>
+			<form id="gridsize">
+				<label>Grid Height:
+					<input type="number" id="canvas_height" name="height" min="1" value="1" min="1" required>
+				</label>
+				<label>Grid Width:
+					<input type="number" id="canvas_width" name="width" min="1" value="1" min="1" required>
+				</label>
+				<input type="submit">
+			</form>
+			<h2>Choose A Color</h2>
+			<input type="color" id="cellcolor">
+			<h2>DRAW ON CANVAS</h2>
+			<table id="canvas_table"></table>
+		</div>
+		<script src="script/canvas.js"></script>
+	</body>
+</html>
